@@ -1,3 +1,5 @@
-export enum tagTypes {}
+export enum tagTypes {
+  photos = "photos",
+}
 
-export const tagTypeLists = [];
+export const tagTypeLists = [tagTypes.photos];
