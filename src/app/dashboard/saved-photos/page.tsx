@@ -87,7 +87,7 @@ const Page = () => {
       <div>
         <div className="flex justify-between mb-5">
           <input
-            className="w-[300px] border border-gray-400 outline-none rounded-[4px] px-4 py-[6px] relative"
+            className="sm:w-[300px] w-[150px] border border-gray-400 outline-none rounded-[4px] px-4 py-[6px] relative"
             placeholder="Search What You Love ..."
             value={searchQuery}
             onChange={handleSearchChange}
