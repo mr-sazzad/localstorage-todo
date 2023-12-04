@@ -5,8 +5,9 @@ const root = "/dashboard";
 import { usePathname } from "next/navigation";
 
 import { LuScrollText } from "react-icons/lu";
-import { TbPhotoSquareRounded } from "react-icons/tb";
-import { MdOutlineSaveAlt } from "react-icons/md";
+import { TbFileDownload } from "react-icons/tb";
+import { TbPhotoDown } from "react-icons/tb";
+import { TbPhoto } from "react-icons/tb";
 
 const useRoutes = () => {
   const pathname = usePathname();
@@ -22,21 +23,21 @@ const useRoutes = () => {
     {
       id: 2,
       label: "Photos",
-      icon: TbPhotoSquareRounded,
+      icon: TbPhoto,
       href: `${root}/photos`,
       active: pathname.startsWith(`${root}/photos`),
     },
     {
       id: 3,
       label: "saved Photos",
-      icon: MdOutlineSaveAlt,
+      icon: TbPhotoDown,
       href: `${root}/saved-photos`,
       active: pathname.startsWith(`${root}/saved-photos`),
     },
     {
       id: 4,
       label: "saved Posts",
-      icon: MdOutlineSaveAlt,
+      icon: TbFileDownload,
       href: `${root}/saved-posts`,
       active: pathname.startsWith(`${root}/saved-posts`),
     },

@@ -8,7 +8,7 @@ const Sidebar = () => {
   const items = useRoutes();
   return (
     <div className="hidden lg:flex h-[90vh] fixed top-[70px]">
-      <ul className="bg-gray-200 border-r border-gray-300 pt-5 flex flex-col gap-1 w-[200px] h-full">
+      <ul className="border border-gray-300 pt-5 flex flex-col gap-1 w-[200px] h-full shadow">
         {items.map((item) => (
           <li key={item.id} className="">
             <SidebarItem

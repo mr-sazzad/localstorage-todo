@@ -20,12 +20,16 @@ const GoTo = ({ href, text }: { href: string; text: string }) => {
           border-gray-500 
           px-3 py-1 
           rounded-full 
-          hover:bg-green-400 
-          hover:border-green-400 
+          
+           
           hover:text-white
           transition-all
           duration-300
-          ${pathname === "/" ? "hover:bg-[#19C7AE] hover:border-[#19C7AE]" : ""}
+          ${
+            pathname === "/"
+              ? "hover:bg-[#19C7AE] hover:border-[#19C7AE]"
+              : "hover:bg-green-400 hover:border-green-400"
+          }
         `}
     >
       <p>{text}</p>

@@ -12,7 +12,7 @@ const storedLikedPostsIdsString = isLocalStorageAvailable
   ? localStorage.getItem("likedPostsIds")
   : null;
 const storedSavedPostsIdsString = isLocalStorageAvailable
-  ? localStorage.getItem("savedPostIds")
+  ? localStorage.getItem("savedPostsIds")
   : null;
 
 const initialState: PostsState = {

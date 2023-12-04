@@ -33,7 +33,7 @@ const Page = () => {
     if (isSuccess) {
       const storedPostsIds: string | null =
         typeof window !== "undefined"
-          ? localStorage.getItem("savedPostIds")
+          ? localStorage.getItem("savedPostsIds")
           : null;
 
       if (storedPostsIds) {

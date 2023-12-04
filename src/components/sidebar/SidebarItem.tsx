@@ -16,8 +16,10 @@ const SidebarItem = ({
   return (
     <Link
       href={href}
-      className={`flex items-center gap-2 px-3 py-1.5 hover:bg-green-200 hover:shadow border-l-4 hover:border-l-green-200 ${
-        active && "bg-green-200 font-medium border-l-green-500"
+      className={`flex items-center gap-2 px-3 py-1.5 hover:bg-green-200 hover:shadow border-l-4 hover:border-l-green-500 ${
+        active
+          ? "bg-green-200 font-medium border-l-green-500"
+          : "border-l-4 border-white"
       }`}
     >
       <Icon className={`${active && "text-green-600"}`} /> {label}
