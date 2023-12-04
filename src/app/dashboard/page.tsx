@@ -7,7 +7,7 @@ const page = () => {
     <div>
       <div className="flex justify-center lg:px-[50px] px-[20px]">
         <div className="flex flex-col sm:flex-row flex-wrap gap-5">
-          <div className="w-full sm:w-[280px] bg-green-300 lg:mt-[120px] p-5 rounded-md">
+          <div className="w-full sm:w-[280px] bg-green-200 lg:mt-[120px] p-5 rounded-md">
             <div className="">
               <p className="text-xl font-semibold mb-3">Explore Posts</p>
               <p>
@@ -22,7 +22,7 @@ const page = () => {
               />
             </div>
           </div>
-          <div className="w-full sm:w-[280px] bg-[#97f1e5] lg:mt-10 p-5 rounded-md flex flex-grow">
+          <div className="w-full sm:w-[280px] bg-[#abfaef] lg:mt-10 p-5 rounded-md flex flex-grow">
             <div className="w-full">
               <p className="text-xl font-semibold mb-3">Explore Photos</p>
               <p>
@@ -38,7 +38,7 @@ const page = () => {
               />
             </div>
           </div>
-          <div className="w-full sm:w-[280px] bg-orange-300 lg:mt-[80px] p-5 rounded-md flex flex-grow">
+          <div className="w-full sm:w-[280px] bg-orange-200 lg:mt-[80px] p-5 rounded-md flex flex-grow">
             <div className="w-full">
               <p className="text-xl font-semibold mb-3">Explore saved posts</p>
               <p>
